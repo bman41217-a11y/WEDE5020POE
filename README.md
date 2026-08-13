@@ -19,7 +19,7 @@ The Daily Crumb Bakery website is a multi-page, responsive prototype designed fo
 -------------
 
 ## Key Features and Functionality
-* **Semantic Web Architecture:** Full integration of HTML structure tags ('<main>','<nav>', '<article>', '<header>') for accessibility.
+* **Semantic Web Architecture:** Full integration of HTML structure tags (<main>,<nav>, <article>, <header>) for accessibility.
 * **Multi-Location Contact Registry:** Business profile layouts.
 * **Interactive Forms Engine:** For client Feedback and suggestions.
 
