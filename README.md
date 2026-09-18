@@ -25,6 +25,21 @@ The Daily Crumb Bakery website is a multi-page, responsive prototype designed fo
 
 ----------------
 
+## Submission Focus Details
+* **Part 1:** Requirements gathering, folder hierarchy establishment, HTML boilerplates compilation, and static site structure validation.
+* **Part 2:** Cascading Style Sheets (CSS) architectural migration, global custom variable integration, typographic layout styling scales, responsive layout breakdowns, and multi-viewport testing updates.
+
+--------------------
+
+## Changelog
+### [v2.0.0] - 2026-09-17 (Part 2 Updates)
+* **Added:** Created external 'css/styles.css' file and explicitly linked across all subpages.
+* **Added:** Implemented global styling configurations via a CSS reset ('box-sizing', margins, padding) for uniform browser normalization.
+* **Added:** Configured responsive media query code rule targeting specific mobile and tablet device viewport widths.
+* **Added:** Integrated 'srcset' and adaptive '<picture>' logic markup to handle device image asset scaling.
+
+--------------------------
+
 ## Timeline and Milestones
 * **Milestone 1:** Content research, and reference creation (completed).
 * **Milestone 2:** Directory folder configuration and visual sitemap (completed).
