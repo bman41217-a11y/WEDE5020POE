@@ -1,0 +1,18 @@
+# User-Agent sets rules for all search engine bots (Google, Bing, etc.)
+User-Agent: *
+
+# Allow engines to crawl and index all piblic pages
+Allow: /index.html
+Allow: /about.html
+Allow: /products.html
+Allow: /menu.html
+Allow: /enquiry.html
+Allow: /contact.html
+
+# Disallow indexing of raw development asset folders to save crawl budget
+Disallow: /css/
+Disallow: /js/
+Disallow: /private/
+
+# Explicitly link your search engine index roadmap file
+Sitemap: https://bman41217-a11y.github.io/WEDE5020POE/sitemap.xml

@@ -81,22 +81,36 @@ input:focus, textarea:focus{
 }
 
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 10%;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 1.5rem 10% !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important;
+    width: 100%;
+}
+
+.nav-logo{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary-color);
 }
 
 .nav-links{
-    display: flex;
-    gap: 2rem;
+    display: flex !important;
+    gap: 2rem !important;
+    list-style: none;
 }
 
-.nav-links a.active{
+.nav-links a{
+    text-decoration: none;
+    color: var(--dark-color);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover, .nav-links a.active{
     color: var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
 }
 
 .products-grid, .locations-grid, .values-grid{
@@ -128,7 +142,7 @@ input:focus, textarea:focus{
 }
 
 .menu-categories{
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding: 2rem 10%;

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catering Enquiries & Bulk Orders | The Daily Crumb Bakery</title>
+    <meta name="description" content="Submit your catering enquiries and bulk orders to The Daily Crumb Bakery. We offer a variety of baked goods for events, parties, and special occasions.">
+    <meta name="keywords" content="Catering enquiries, Bulk orders, Bakery catering, Event catering, Party orders, Special occasion baked goods, Custom bakery orders">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!--- Navigation Bar --->
+    <nav class="navbar">
+        <div class="nav-logo">The Daily Crumb Bakery</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="enquiry.html" class="active">Enquiries</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Enquiry Content -->
+    <main class="main-content">
+        <section class="enquiry-intro">
+            <h2>Catering Enquiries & Bulk Orders</h2>
+            <p>We are delighted to cater for your events and special occasions. Please fill out the form below to submit your catering enquiries or bulk orders.</p>
+        </section>
+
+        <!-- Enquiry Form -->
+         <section class="feedback-form-section">
+            <form id="enquiryForm" class="contact-form">
+
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required minlength="3" maxlength="100">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="productSelect">Select Product:</label>
+                    <select id="productSelect" name="productSelect" required>
+                        <option value="">--Please choose an option--</option>
+                        <option value="chocolateCake">Chocolate Cake</option>
+                        <option value="blueberryMuffins">Blueberry Muffins</option>
+                        <option value="sourdoughBread">Sourdough Bread</option>
+                        <option value="croissants">Croissants</option>
+                        <option value="customOrder">Custom Order</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="quantityInput">Quantity:</label>
+                    <input type="number" id="quantityInput" value="1" min="1" max="100" required>
+                </div>
+
+                <div id="costCalculationBox" style="margin: 1.5rem 0; padding: 1rem; background-color: #f0f0f0; border-radius: 4px; font-weight: bold; color: #3d405b;">
+                    Estimated Cost: R0.00
+                </div>
+
+                <button type="submit" class="submit-button">Submit Enquiry</button>
+            </form>
+
+            <div id="enquirySuccessMessage" style="display: none; color: green; margin-top: 1rem; font-weight: bold;"></div>
+        </section>
+    </main>
+
+    <!--- Footer --->
+    <footer class="footer">
+        <p>&copy; 2026 The Daily Crumb Bakery. All rights reserved.</p>
+    </footer>
+
+    <!--- JavaScript --->
+    <script src="js/main.js"></script>
+</body>
+</html>

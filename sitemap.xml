@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemaps.org">
+
+<!-- Homepage -->
+<url>
+    <loc>https://bman41217-a11y.github.io/WEDE5020POE/index.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+</url>
+
+<!-- About Us Page -->
+<url>
+    <loc>https://bman41217-a11y.github.io/WEDE5020POE/about.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+</url>
+
+<!-- Products Page -->
+<url>
+    <loc>https://bman41217-a11y.github.io/WEDE5020POE/products.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+</url>
+
+<!-- Menu Categories Page -->
+<url>
+    <loc>https://bman41217-a11y.github.io/WEDE5020POE/menu-categories.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+</url>
+
+<!-- Enquiry Page -->
+<url>
+    <loc>https://bman41217-a11y.github.io/WEDE5020POE/enquiry.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+</url>
+
+<!-- Contact Page -->
+<url>
+    <loc>https://bman41217-a11y.github.io/WEDE5020POE/contact.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+</url>
+</urlset>
